@@ -16,17 +16,26 @@ h2{
     padding: 0px 0px 10.08px;
 }
 
+h3{
+    color: black;
+    font-size: 28.8px;
+}
+
 ul{
     list-style-type: none;
 }
 
-a{
-    text-decoration: none;
+button:hover{
+    cursor: pointer;
 }
 
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
 
-img{
-    display: inline-block;
+image{
+    display: block;
 }
 
 .top-links{
@@ -39,7 +48,7 @@ img{
     min-height: 563.61px;
     min-width: 1295px;
     background-size: 1295px 563.61px;
-    content: 1295px 563.61px;
+    content: 100%;
     display: flex;
     margin-bottom: 20px;
 }
@@ -47,6 +56,7 @@ img{
 .main-title{
     color: white;
     display: flex;
+    align-items: flex-end;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.479);
     padding-right: 65%;
@@ -57,19 +67,31 @@ img{
 
 .museum-map{
     font-size: 19.2px;
-   
 }
 
 .explore-list{
-    
-    color: #333333;
-    background-color: #f4f4f4;
-    display: inline-block;
+    display: flex;
+    width: auto;
 }
+
+.list-item{
+    flex-wrap: wrap;
+    background-color: #f4f4f4;
+    width: auto;
+    justify-content: space-evenly;
+    font-size: 19.2px;
+    padding:10px 20px;
+    border: none;
+    color: #333333;
+    margin-right: 16px;
+}
+
 
 .grid-container{
     display: grid;  
-    grid-template-columns: 33.33%; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    column-gap: 30px;
+    row-gap: 50px;
 }
 
 .grid-button{
@@ -79,7 +101,122 @@ img{
     padding: 10px 20px 10px 20px;
 }
 
+.grid-item1{
+    grid-row: 1;
+}
+
+.grid-item2{
+    grid-row:2;
+}
+
+.grid-item3{
+    grid-row: 3;
+}
+
+.grid-picture{
+    grid-row: 3;
+   grid-column: span 2;
+}
+
+.galleries-link{
+    border: 2px solid #333333;
+    width: 1082px;
+    height: 38.75px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.cafe{
+    display: flex;
+    margin: 15px;
+}
+
+.cafe-text{
+    justify-content: flex-start;
+}
+
+.cafe-image{
+    justify-content: flex-end;
+}
+
+.email{
+    background-color: #333333;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-form{
+    display:flex
+    
+}
+
+.form-details{
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width:25%
+}
+
+.form-input{
+    width:234px;
+    height:21px;
+    border:2px solid white
+}
+
+.signup-button{
+    color: white;
+    background-color: #333333;
+    border: 2px solid white;
+    font-size: 16px;
+    padding-top: 7px;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    margin: 15px;
+}
+
+
+.logo-size{
+    width: 3%;
+    margin: 5px;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer{
     background-color: #333333;
    color: white;   
+}
+
+.nav-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 30px;
+}
+
+.grid-row1{
+    grid-row:1
+}
+
+.grid-row2{
+    grid-row: 2;
+}
+
+.grid-row3{
+    grid-row: 3;
 }
