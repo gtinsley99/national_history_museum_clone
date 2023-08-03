@@ -1,41 +1,85 @@
 body{
-    width: 65%;
-    margin: 0 auto;
+    max-width: 60%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
 
-hr{
-    border: solid 2px;
-    
-}
-.header-nav{
-    display:flex;
-    flex-wrap: wrap;
+h1{
+    font-size: 44px;
 }
 
-.top-footer-nav{
-    justify-content: flex-end;
+h2{
+    font-size: 33.6px;
+    color: black;
+    margin:3.2px 0px 8px;
+    padding: 0px 0px 10.08px;
 }
 
-.main-footer-nav{
-    justify-content: center;
-    align-content: flex-end;
-    
+ul{
+    list-style-type: none;
 }
 
-.row{
-    background-color: black;
+a{
+    text-decoration: none;
 }
 
 
-#dinosaur{
+img{
+    display: inline-block;
+}
+
+.top-links{
+    color:black
+}
+
+.explore-museum{
+    background-image: url(Images/exploremuseum.jpg);
+    background-repeat: no-repeat;
+    min-height: 563.61px;
+    min-width: 1295px;
+    background-size: 1295px 563.61px;
+    content: 1295px 563.61px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 20%;
+    margin-bottom: 20px;
 }
 
-.footer-nav{
-    display:flex;
-    flex-wrap: wrap;
+.main-title{
+    color: white;
+    display: flex;
     flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.479);
+    padding-right: 65%;
+    padding-bottom: 2%;
+    width: 1120px;
+    height: 192.47px;;
+}
+
+.museum-map{
+    font-size: 19.2px;
+   
+}
+
+.explore-list{
+    
+    color: #333333;
+    background-color: #f4f4f4;
+    display: inline-block;
+}
+
+.grid-container{
+    display: grid;  
+    grid-template-columns: 33.33%; 
+}
+
+.grid-button{
+    background-color: #333333;
+    color: white;
+    font-size: 19.2px;
+    padding: 10px 20px 10px 20px;
+}
+
+footer{
+    background-color: #333333;
+   color: white;   
 }
