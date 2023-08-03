@@ -34,12 +34,34 @@ a{
     cursor: pointer;
 }
 
-image{
-    display: block;
+img{
+    display: inline-block;
 }
 
+header{
+    display: flex;
+}
+
+.header-links{
+    width: 100%;
+    flex-direction: row;
+    padding:10px;
+}
+
+
+
 .top-links{
-    color:black
+    color:black;
+    font-size: 16px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.bottom-links{
+    color: black;
+    font-size: 18.4;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .explore-museum{
@@ -48,7 +70,7 @@ image{
     min-height: 563.61px;
     min-width: 1295px;
     background-size: 1295px 563.61px;
-    content: 100%;
+    padding:10px;
     display: flex;
     margin-bottom: 20px;
 }
@@ -56,17 +78,38 @@ image{
 .main-title{
     color: white;
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
+    justify-content: flex-end;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.479);
-    padding-right: 65%;
-    padding-bottom: 2%;
-    width: 1120px;
-    height: 192.47px;;
+    padding-right: 5%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    margin: 5px;
+    height: auto;
+}
+
+.main-p{
+    width: 70%;
+    
 }
 
 .museum-map{
     font-size: 19.2px;
+}
+
+.museum-button{
+    color:#333333;
+    background-color: white;
+    font-size: 19.2px;
+    padding:10px 40px 10px 20px;
+    border: white solid 2px;
+}
+
+.museum-button:hover{
+    color: white;
+    background-color: transparent;
+    transition: 0.3s;
 }
 
 .explore-list{
@@ -86,6 +129,11 @@ image{
     margin-right: 16px;
 }
 
+.list-item:hover{
+    color:white;
+    background-color: #333333;
+    transition: 0.3s;
+}
 
 .grid-container{
     display: grid;  
@@ -99,6 +147,12 @@ image{
     color: white;
     font-size: 19.2px;
     padding: 10px 20px 10px 20px;
+}
+
+.grid-button:hover{
+    background-color: white;
+    color: #333333;
+    transition: 0.3s;
 }
 
 .grid-item1{
@@ -118,7 +172,17 @@ image{
    grid-column: span 2;
 }
 
-.galleries-link{
+.clock-link{
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+}
+
+.grid-p{
+    color: #333333;
+}
+
+.galleries{
     border: 2px solid #333333;
     width: 1082px;
     height: 38.75px;
@@ -126,6 +190,17 @@ image{
     display: flex;
     align-items: center;
 }
+
+.gallery-links{
+    color: #333333;
+}
+
+.galleries:hover{
+    background-color: rgba(214, 214, 214, 0.445);
+    text-decoration: underline;
+}
+
+
 
 .cafe{
     display: flex;
