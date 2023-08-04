@@ -51,7 +51,13 @@ li{
 }
 
 .main-nav-bar{
-    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-left: 380px;
+}
+
+#search-link{
+    padding-left: 50%;
 }
 
 .top-links{
@@ -69,9 +75,8 @@ li{
 .bottom-links{
     color: black;
     font-size: 18.4px;
-    justify-content: flex-end;
-    align-items: flex-end;
     transition: 0.3s;
+    padding: 1px 1px;
 }
 
 .bottom-links:hover{
@@ -83,17 +88,15 @@ li{
     padding: 7px 30px 6px;
 }
 
+
 .lower-head-nav{
     background-color:  rgba(214, 214, 214, 0.445);
     height: 50px;
     display: flex;
     margin: 0;
     width: 100%;
-}
-
-.header-list{
-    text-decoration: none;
-    color: red;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .nav-button{
@@ -101,12 +104,13 @@ li{
     font-size: 19.2px;
     background-color: white;
     border:3px black solid;
-    width: 327px;
+    width: 340px;
     height:37px;
-    justify-content: flex-start;
     margin-top: 5px;
-    margin-right: 200px;
+    margin-right: 100px;
 }
+
+
 
 .nav-button:hover{
     cursor:default;
@@ -146,6 +150,7 @@ li{
     height: auto;
     width: 1120px;
     height: 225px;
+    margin-top: 27.5%;
 }
 
 .main-p{
@@ -259,21 +264,23 @@ li{
 }
 
 .cafe{
-    display: flex;
+    display: inline-flex;
     margin: 15px;
 }
 
 .cafe-text{
-    justify-content: flex-start;
+  width: 50%;
 }
 
 .cafe-image{
-    justify-content: flex-end;
+    width: 65%;
 }
 
 .email{
     background-color: #333333;
     color: white;
+    font-weight: normal;
+    font-size: 18px;
     padding: 20px;
     margin-bottom: 20px;
 }
@@ -311,6 +318,8 @@ li{
     padding-right: 4rem;
     padding-left: 4rem;
     margin: 15px;
+    display: inline-block;
+    white-space: nowrap;
 }
 
 .logo-size{
