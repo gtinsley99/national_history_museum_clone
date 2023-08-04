@@ -23,6 +23,7 @@ h3{
 
 ul{
     list-style-type: none;
+    padding-left: 0%;
 }
 
 button:hover{
@@ -34,34 +35,55 @@ a{
     cursor: pointer;
 }
 
-img{
-    display: inline-block;
+hr{
+    color: #E2EDCE;
 }
 
-header{
+img{
+    display: inline-flex;
+}
+
+li{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.header-main{
+    height: 150px;
+    width: 100%;
     display: flex;
 }
 
 .header-links{
     width: 100%;
-    flex-direction: row;
     padding:10px;
 }
 
-
+.header-both-links{
+    display: flex;
+    flex-direction: row;
+    width:1000px;
+    height: 80px;
+}
 
 .top-links{
-    color:black;
+    color: black;
     font-size: 16px;
+    align-items: flex-start;
     justify-content: flex-end;
-    align-items: flex-end;
+    padding:7px 2px 6px;
 }
 
 .bottom-links{
     color: black;
-    font-size: 18.4;
+    font-size: 18.4px;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items:flex-end;
+}
+
+#yellow-button{
+    background-color: #F8Dc00;
+    padding: 7px 30px 6px;
 }
 
 .explore-museum{
@@ -69,7 +91,7 @@ header{
     background-repeat: no-repeat;
     min-height: 563.61px;
     min-width: 1295px;
-    background-size: 1295px 563.61px;
+    background-size: 100% 563.61px;
     padding:10px;
     display: flex;
     margin-bottom: 20px;
@@ -77,21 +99,18 @@ header{
 
 .main-title{
     color: white;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    flex-direction: column;
     background-color: rgba(0, 0, 0, 0.479);
     padding-right: 5%;
     padding-bottom: 1%;
-    padding-left: 5%;
+    padding-left: 1%;
     margin: 5px;
     height: auto;
+    width: 1120px;
+    height: 225px;
 }
 
 .main-p{
     width: 70%;
-    
 }
 
 .museum-map{
@@ -104,12 +123,12 @@ header{
     font-size: 19.2px;
     padding:10px 40px 10px 20px;
     border: white solid 2px;
+    transition: 0.3s;
 }
 
 .museum-button:hover{
     color: white;
     background-color: transparent;
-    transition: 0.3s;
 }
 
 .explore-list{
@@ -127,12 +146,12 @@ header{
     border: none;
     color: #333333;
     margin-right: 16px;
+    transition: 0.3s;
 }
 
 .list-item:hover{
     color:white;
     background-color: #333333;
-    transition: 0.3s;
 }
 
 .grid-container{
@@ -147,12 +166,12 @@ header{
     color: white;
     font-size: 19.2px;
     padding: 10px 20px 10px 20px;
+    transition: 0.3s;
 }
 
 .grid-button:hover{
     background-color: white;
     color: #333333;
-    transition: 0.3s;
 }
 
 .grid-item1{
@@ -200,8 +219,6 @@ header{
     text-decoration: underline;
 }
 
-
-
 .cafe{
     display: flex;
     margin: 15px;
@@ -220,6 +237,12 @@ header{
     color: white;
     padding: 20px;
     margin-bottom: 20px;
+}
+
+.email-link{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .contact-form{
@@ -251,47 +274,54 @@ header{
     margin: 15px;
 }
 
-
 .logo-size{
     width: 3%;
     margin: 5px;
     margin-bottom: 0px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer{
-    background-color: #333333;
-   color: white;   
+    background-color: #333333; 
+    color: white;
+    font-size: 16px; 
 }
 
-.nav-grid{
+.nav-grid-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 30px;
+    column-gap: 30px;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
-.grid-row1{
-    grid-row:1
+.footer-column-1{
+    grid-column: 1;
 }
 
-.grid-row2{
-    grid-row: 2;
+.footer-column-2{
+    grid-column: 2;
 }
 
-.grid-row3{
-    grid-row: 3;
+.footer-column-3{
+    grid-column: 3;
+}
+
+.footer-column-4{
+    grid-column: 4;
+}
+
+.footer-title{
+    font-size: 20px;
+    color: #E2EDCE;
+}
+
+.footer-list{
+    color: white;
+    font-size: 16px;
+}
+
+.underline{
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
 }

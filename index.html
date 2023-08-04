@@ -9,27 +9,30 @@
 <body>
     <header>
             <!-- header links -->
-            <nav class="header-links">
+            <nav class="header-main">
                 
-                <div>
+                <div class="header-links">
                     
                     <a href="#"><img src="/Images/naturalhistorylogowhite.jpg" alt="natural history logo" width="180" height="80">
+
+                    <div class="header-both-links">   
             
-                    <div class="top-link-nav">
-                        <a class="top-links" href="#">Search</a>
-                        <a class="top-links" href="#">Membership</a>
-                        <a class="top-links" href="#">Donate</a>
-                    </div>
-                
-                    <div>
-                        <a class="bottom-links" href="#">Visit</a>
-                        <a class="bottom-links" href="#">Discover</a>
-                        <a class="bottom-links" href="#">Take Part</a>
-                        <a class="bottom-links" href="#">Join and Support</a>
-                        <a class="bottom-links" href="#">Shop</a>
-                        <a class="bottom-links" href="#">Schools</a>
-                        <a class="bottom-links" href="#">Our Science</a>
-                    </div>    
+                        <ul class="top-link-nav">
+                            <a class="top-links" href="#">Search</a>
+                            <a class="top-links" href="#">Membership</a>
+                            <a id="yellow-button" class="top-links" href="#">Donate</a>
+                        </ul>
+                    
+                        <ul>
+                            <a class="bottom-links" href="#">Visit</a>
+                            <a class="bottom-links" href="#">Discover</a>
+                            <a class="bottom-links" href="#">Take Part</a>
+                            <a class="bottom-links" href="#">Join and Support</a>
+                            <a class="bottom-links" href="#">Shop</a>
+                            <a class="bottom-links" href="#">Schools</a>
+                            <a class="bottom-links" href="#">Our Science</a>
+                        </ul>   
+                    </div>     
                 </div>    
                     
                        
@@ -175,7 +178,7 @@
 
     <div class="email">
         <p>Receive email updates about our news, science, exhibitions, events, products, services and fundraising activities. We may occasionally include third-party content from our corporate partners and other museums. We will not share your personal details with these third parties. You must be over the age of 13. 
-        <a href="#">Privacy notice</a>.</p>
+        <a class="email-link" href="#">Privacy notice</a>.</p>
         
         <div>
 
@@ -212,135 +215,165 @@
 
     <footer>
         <!-- footer links -->
-        <div class="nav-grid">
-            <nav>
-                <div class="grid-row1">
-                    <img src="/Images/nhm-logo-footer.svg" alt="natural history museum logo" width="197.5" height="100">
-                </div>   
+        
+        <nav>
+            <div class="nav-grid-container">
+                <div class="footer-column-1">
 
-                <div class="grid-row1">
-                    <h3><a href="#">Visit</a></h3>
-                    <ul>
-                        <li><a href="#">What's on</a></li>
-                        <li><a href="#">Galleries and Museum map</a></li>
-                        <li><a href="#">Access</a></li>
-                    </ul> 
-                </div>    
+                    <div>
+                        <img src="/Images/nhm-logo-footer.svg" alt="natural history museum logo" width="197.5" height="100">
+                    </div>  
 
-                <div class="grid-row1">
-                    <h3><a href="#">Join and support</a></h3>
-                    <ul>
-                        <li><a href="#">Membership</a></li>
-                        <li><a href="#">Gift membership</a></li>
-                        <li><a href="#">Make a donation</a></li>
-                        <li><a href="#">Become a Patron</a></li>
-                        <li><a href="#">Corporate partnerships</a></li>
-                    </ul> 
-                </div>    
-                
-                
+                    <div>
+                        <h3><a class="footer-title" href="#">The National History Museum</a></h3>
+                            <p><b>Cromwell Road <br> London SW7 5BD</b> <br> <a class="underline" href="#">Map</a> </p>
+                            <a class="underline" href="#">See our opening hours</a>
+                    </div>
 
-                <div class="grid-row2">
-                    <h3><a href="#">The National History Museum</a></h3>
-                        <p>Cromwell Road <br> London SW7 5BD <br> <a class="underline" href="#">Map</a> </p>
+                    
+                    <div>
+                        <h3><a class="footer-title" href="#">The National History Museum at Tring</a></h3>
+                        <p><b>Akeman Street <br> Tring <br> Hertfordshire HP23 6AP</b> <br> <a class="underline" href="#">Map</a> </p>
                         <a class="underline" href="#">See our opening hours</a>
+                    </div>
+                </div>
+                
+                <div class="footer-column-2">
+
+                    <div>
+                        <h3><a class="footer-title" href="#">Visit</a></h3>
+                        <ul>
+                            <li><a class="footer-list" href="#">What's on</a></li>
+                            <li><a class="footer-list" href="#">Galleries and Museum map</a></li>
+                            <li><a class="footer-list" href="#">Access</a></li>
+                        </ul> 
+                        <hr>
+                    </div>  
+                    
+                    <div>
+                        <h3><a class="footer-title" href="#">Discover</a></h3>
+                            <ul>
+                                <li><a class="footer-list" href="#">News</a></li>
+                                <li><a class="footer-list" href="#">Anthropocene</a></li>
+                                <li><a class="footer-list" href="#">British Wildlife</a></li>
+                                <li><a class="footer-list" href="#">Collections</a></li>
+                                <li><a class="footer-list" href="#">Dinosaurs</a></li>
+                                <li><a class="footer-list" href="#">Human Evolution</a></li>
+                                <li><a class="footer-list" href="#">Oceans</a></li>
+                                <li><a class="footer-list" href="#">Space</a></li>
+                                <li><a class="footer-list" href="#">What on Earth?</a></li>
+                                <li><a class="footer-list" href="#">Video</a></li>
+                            </ul>    
+                            <hr>
+                    </div>    
+
+                    <div>
+                        <h3><a class="footer-title" href="#">For schools</a></h3>
+                            <ul>
+                                <li><a class="footer-list" href="#">Visiting South Kensington</a></li>
+                                <li><a class="footer-list" href="#">Visiting Tring</a></li>
+                                <li><a class="footer-list" href="#">Learning resources</a></li>
+                            </ul>    
+                            <hr>
+                    </div>   
+
+                    <div>
+                        <h3><a class="footer-title" href="#">Careers</a></h3>
+                            <a class="footer-list" href="#"><b>Current vacancies</b></a>
+                            <hr>
+                    </div>        
+
                 </div>
 
-                <div class="grid-row3">
-                    <h3><a href="#">The National History Museum at Tring</a></h3>
-                    <p>Akeman Street <br> Tring <br> Hertfordshire HP23 6AP <br> <a href="#">Map</a> </p>
-                    <a class="underline" href="#">See our opening hours</a>
+                <div class="column3">
+                    
+                    <div>
+                        <h3><a class="footer-title" href="#">Join and support</a></h3>
+                        <ul>
+                            <li><a class="footer-list" href="#">Membership</a></li>
+                            <li><a class="footer-list" href="#">Gift membership</a></li>
+                            <li><a class="footer-list" href="#">Make a donation</a></li>
+                            <li><a class="footer-list" href="#">Become a Patron</a></li>
+                            <li><a class="footer-list" href="#">Corporate partnerships</a></li>
+                        </ul> 
+                        <hr>
+                    </div>    
+
+                    <div>
+                        <h3><a class="footer-title" href="#">Take part</a></h3>
+                            <ul>
+                                <li><a class="footer-list" href="#">Volunteer</a></li>
+                                <li><a class="footer-list" href="#">Citizen science</a></li>
+                                <li><a class="footer-list" href="#">Identify UK nature</a></li>
+                                <li> <a class="footer-list" href="#">Centre for UK Biodiversity</a></li>
+                            </ul>    
+                            <hr>
+                    </div>       
+
+                    <div>
+                        <h3><a class="footer-title" href="#">About us</a></h3>
+                            <ul>
+                                <li><a class="footer-list" href="#">News</a></li>
+                                <li><a class="footer-list" href="#">Press Office</a></li>
+                                <li><a class="footer-list" href="#">Governance</a></li>
+                                <li><a class="footer-list" href="#">Contact us</a></li>
+                            </ul>    
+                            <hr>
+                    </div>
+
+                    <div>
+                        <h3><a class="footer-title" href="#">Online Shop</a></h3>
+                            <hr>   
+                    </div>     
                 </div>
+                
+                <div class="column-4">
 
-                 
-                    
+                    <div>        
+                        <h3><a class="footer-title" href="#">Our science</a></h3>
+                            <ul>
+                                <li><a class="footer-list" href="#">Our work</a></li>
+                                <li><a class="footer-list" href="#">Data</a></li>
+                                <li><a class="footer-list" href="#">Collections</a></li>
+                                <li><a class="footer-list" href="#">Departments and staff</a></li>
+                                <li><a class="footer-list" href="#">Events and seminars</a></li>
+                                <li><a class="footer-list" href="#">Courses and training</a></li>
+                                <li><a class="footer-list" href="#">Library and Archives</a></li>
+                            </ul>
+                            <hr>
+                        
+                    </div>   
 
-                <h3><a href="#">Discover</a></h3>
-                    <ul>
-                        <li><a href="#">News</a></li>
-                        <li><a href="#">Anthropocene</a></li>
-                        <li><a href="#">British Wildlife</a></li>
-                        <li><a href="#">Collections</a></li>
-                        <li><a href="#">Dinosaurs</a></li>
-                        <li><a href="#">Human Evolution</a></li>
-                        <li><a href="#">Oceans</a></li>
-                        <li><a href="#">Space</a></li>
-                        <li><a href="#">What on Earth?</a></li>
-                        <li><a href="#">Video</a></li>
-                    </ul>    
-                    <hr>
+                    <div>
+                        <h3><a class="footer-title" href="#">Business services</a></h3>
+                        <ul>
+                            <li><a class="footer-list" href="#">Touring exhibitions</a></li>
+                            <li><a class="footer-list" href="#">Consulting</a></li>
+                            <li><a class="footer-list" href="#">Publishing</a></li>
+                            <li><a class="footer-list" href="#">Film locations</a></li>
+                            <li><a class="footer-list" href="#">NHM images</a></li>
+                            <li><a class="footer-list" href="#">Venue hire</a></li>
+                            <li><a class="footer-list" href="#">Licensing</a></li>
+                        </ul>    
+                        <hr>
+                    </div>
+                        
+                    <div>
 
-                <h3><a href="#">For schools</a></h3>
-                    <ul>
-                        <li><a href="#">Visiting South Kensington</a></li>
-                        <li><a href="#">Visiting Tring</a></li>
-                        <li><a href="#">Learning resources</a></li>
-                    </ul>    
-                    <hr>
-
-                <h3><a href="#">Careers</a></h3>
-                    <a href="#">Current vacancies</a>
-                    <hr>
-
-                 
-                    
-
-                <h3><a href="#">Take part</a></h3>
-                    <ul>
-                        <li><a href="#">Volunteer</a></li>
-                        <li><a href="#">Citizen science</a></li>
-                        <li><a href="#">Identify UK nature</a></li>
-                        <li> <a href="#">Centre for UK Biodiversity</a></li>
-                    </ul>    
-                    <hr>
-
-                <h3><a href="#">About us</a></h3>
-                    <ul>
-                        <li><a href="#">News</a></li>
-                        <li><a href="#">Press Office</a></li>
-                        <li><a href="#">Governance</a></li>
-                        <li><a href="#">Contact us</a></li>
-                    </ul>    
-                    <hr>
-
-                <h3><a href="#">Online Shop</a></h3>
-                    <hr>
-
-                <h3><a href="#">Our science</a></h3>
-                    <ul>
-                        <li><a href="#">Our work</a></li>
-                        <li><a href="#">Data</a></li>
-                        <li><a href="#">Collections</a></li>
-                        <li><a href="#">Departments and staff</a></li>
-                        <li><a href="#">Events and seminars</a></li>
-                        <li><a href="#">Courses and training</a></li>
-                        <li><a href="#">Library and Archives</a></li>
-                    <ul>
-                    <hr>
-
-                <h3><a href="#">Business services</a></h3>
-                    <ul>
-                        <li><a href="#">Touring exhibitions</a></li>
-                        <li><a href="#">Consulting</a></li>
-                        <li><a href="#">Publishing</a></li>
-                        <li><a href="#">Film locations</a></li>
-                        <li><a href="#">NHM images</a></li>
-                        <li><a href="#">Venue hire</a></li>
-                        <li><a href="#">Licensing</a></li>
-                    </ul>    
-                    <hr>
-
-                <h3><a href="#">Legal</a></h3>
-                    <ul>
-                        <li><a href="#">Cookie preferences</a></li>
-                        <li><a href="#">Privacy notice</a></li>
-                        <li><a href="#">Website accessibility statement</a></li>
-                        <li><a href="#">Terms and conditions</a></li>
-                        <li><a href="#">Modern Slavery Statement</a></li>
-                    </ul>    
-                    <hr>
-            </nav>
-        </div>    
+                        <h3><a class="footer-title" href="#">Legal</a></h3>
+                            <ul>
+                                <li><a class="footer-list" href="#">Cookie preferences</a></li>
+                                <li><a class="footer-list" href="#">Privacy notice</a></li>
+                                <li><a class="footer-list" href="#">Website accessibility statement</a></li>
+                                <li><a class="footer-list" href="#">Terms and conditions</a></li>
+                                <li><a class="footer-list" href="#">Modern Slavery Statement</a></li>
+                            </ul>    
+                            <hr>
+                    </div>        
+                </div>                
+            </div>
+        </nav>
+           
 
         <p>© The Trustees of The Natural History Museum, London</p>
 
