@@ -70,6 +70,7 @@ li{
 
 .top-links:hover{
     text-decoration: underline 3px #333333;
+    text-underline-offset: 8px;
 }
 
 .bottom-links{
@@ -81,6 +82,7 @@ li{
 
 .bottom-links:hover{
     text-decoration: underline 5px #333333;
+    text-underline-offset: 8px;
 }
 
 #yellow-button{
@@ -114,7 +116,11 @@ li{
     position: relative; left: -50px;
 }
 
-
+#explore-museum{
+    background-color: #F7a70b;
+    text-decoration: underline 3px #333333;
+    text-underline-offset: 10px;
+}
 
 .nav-button:hover{
     cursor:default;
@@ -131,6 +137,7 @@ li{
 .nav-list:hover{
     background-color: #F7a70b;
     text-decoration:underline 3px #333333;
+    text-underline-offset: 10px;
 }
 
 .explore-museum{
