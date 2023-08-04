@@ -69,7 +69,7 @@ li{
 }
 
 .top-links:hover{
-    text-decoration: underline 5px #333333;
+    text-decoration: underline 3px #333333;
 }
 
 .bottom-links{
@@ -94,9 +94,12 @@ li{
     height: 50px;
     display: flex;
     margin: 0;
-    width: 100%;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    margin-left: -50vw;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .nav-button{
@@ -108,6 +111,7 @@ li{
     height:37px;
     margin-top: 5px;
     margin-right: 100px;
+    position: relative; left: -50px;
 }
 
 
@@ -138,11 +142,15 @@ li{
     padding:10px;
     display: flex;
     margin-bottom: 20px;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    margin-left: -50vw;
 }
 
 .main-title{
     color: white;
-    background-color: rgba(0, 0, 0, 0.479);
+    background-color: rgba(0, 0, 0, 0.651);
     padding-right: 5%;
     padding-bottom: 1%;
     padding-left: 1%;
@@ -150,7 +158,10 @@ li{
     height: auto;
     width: 1120px;
     height: 225px;
-    margin-top: 27.5%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 11px;
 }
 
 .main-p{
@@ -261,6 +272,7 @@ li{
 .galleries:hover{
     background-color: rgba(214, 214, 214, 0.445);
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .cafe{
@@ -336,11 +348,13 @@ footer{
     background-color: #333333; 
     color: white;
     font-size: 16px; 
-}
-
-footer::before{
-    width: 100%;
-    background-color: #333333;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    margin-left: -50vw;
+    display: flex;
+    padding-bottom: 120px;
+    overflow: hidden;
 }
 
 .nav-grid-container{
@@ -349,6 +363,7 @@ footer::before{
     column-gap: 30px;
     padding-top: 10px;
     padding-bottom: 30px;
+    margin-left: 26%;
 }
 
 .footer-column-1{
@@ -382,3 +397,7 @@ footer::before{
     color: white;
     font-weight: bold;
 }
+
+.end{
+    position: relative; left: -1135px; top: 900px;
+}    
