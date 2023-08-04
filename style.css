@@ -44,29 +44,19 @@ li{
     font-weight: bold;
 }
 
-.header-main{
-    height: 150px;
-    width: 100%;
-    display: inline
-}
-
 .header-links{
     width: 100%;
     padding:10px;
-
+    display: flex;
 }
 
-.header-both-links{
+.main-nav-bar{
     display: flex;
-    flex-direction: row;
-    width:1000px;
-    height: 80px;
 }
 
 .top-links{
     color: black;
     font-size: 16px;
-    align-items: flex-start;
     justify-content: flex-end;
     padding:7px 2px 6px;
     transition: 0.3s;
@@ -80,7 +70,7 @@ li{
     color: black;
     font-size: 18.4px;
     justify-content: flex-end;
-    align-items:flex-end;
+    align-items: flex-end;
     transition: 0.3s;
 }
 
@@ -327,6 +317,10 @@ li{
     width: 3%;
     margin: 5px;
     margin-bottom: 0px;
+}
+
+.logo-size:hover{
+    cursor: pointer;
 }
 
 footer{
