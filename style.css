@@ -1,5 +1,8 @@
 body{
     width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -45,24 +48,29 @@ li{
 }
 
 .header-links{
-    width: 100%;
     padding:10px;
     display: flex;
+    justify-content: space-around;
 }
 
 .main-nav-bar{
-    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
     align-items: flex-end;
-    padding-left: 380px;
 }
 
-#search-link{
-    padding-left: 50%;
+.top-link-nav{
+    display: flex;
+}
+
+#bottomLinkNav{
+    display: inline-block;
 }
 
 .top-links{
     color: black;
     font-size: 16px;
+    margin: 7px;
     justify-content: flex-end;
     padding:7px 2px 6px;
     transition: 0.3s;
@@ -76,6 +84,7 @@ li{
 .bottom-links{
     color: black;
     font-size: 18.4px;
+    margin: 7px;
     transition: 0.3s;
     padding: 1px 1px;
 }
