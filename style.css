@@ -155,6 +155,7 @@ li{
     min-height: 563.61px;
     min-width: 100%;
     background-size: 100% 563.61px;
+    padding:10px;
     display: flex;
     margin-bottom: 20px;
     width: 100vw;
@@ -372,12 +373,6 @@ footer{
     overflow: hidden;
 }
 
-.footer-nav{
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-}
-
 .nav-grid-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -419,3 +414,6 @@ footer{
     font-weight: bold;
 }
 
+.end{
+    position: relative; left: -1035px; top: 950px;
+}    
